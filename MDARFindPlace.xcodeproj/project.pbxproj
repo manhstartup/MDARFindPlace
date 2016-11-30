@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB385B651DE4451A000CF131 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB385B641DE4451A000CF131 /* FileHelper.m */; };
+		EB5E93581DD6F0B20046EE33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93571DD6F0B20046EE33 /* main.m */; };
+		EB5E935B1DD6F0B20046EE33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E935A1DD6F0B20046EE33 /* AppDelegate.m */; };
+		EB5E93631DD6F0B20046EE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5E93621DD6F0B20046EE33 /* Assets.xcassets */; };
+		EB5E93661DD6F0B20046EE33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5E93641DD6F0B20046EE33 /* LaunchScreen.storyboard */; };
+		EB5E93701DD6F1220046EE33 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E936E1DD6F1220046EE33 /* HomeVC.m */; };
+		EB5E93711DD6F1220046EE33 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB5E936F1DD6F1220046EE33 /* HomeVC.xib */; };
+		EB5E93741DD6F3670046EE33 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5E93731DD6F3670046EE33 /* CoreLocation.framework */; };
+		EB5E93E31DD713540046EE33 /* ARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93C91DD713540046EE33 /* ARCoordinate.m */; };
+		EB5E93E41DD713540046EE33 /* ARGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93CB1DD713540046EE33 /* ARGeoCoordinate.m */; };
+		EB5E93E51DD713540046EE33 /* ARKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93CD1DD713540046EE33 /* ARKit.m */; };
+		EB5E93E61DD713540046EE33 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93D01DD713540046EE33 /* ARViewController.m */; };
+		EB5E93E71DD713540046EE33 /* AugmentedRealityController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93D31DD713540046EE33 /* AugmentedRealityController.m */; };
+		EB5E93E81DD713540046EE33 /* GEOLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93D51DD713540046EE33 /* GEOLocations.m */; };
+		EB5E93E91DD713540046EE33 /* bgCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5E93D71DD713540046EE33 /* bgCallout.png */; };
+		EB5E93EA1DD713540046EE33 /* bgCallout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5E93D81DD713540046EE33 /* bgCallout@2x.png */; };
+		EB5E93EB1DD713540046EE33 /* bgCalloutDisclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5E93D91DD713540046EE33 /* bgCalloutDisclosure.png */; };
+		EB5E93EC1DD713540046EE33 /* bgCalloutDisclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5E93DA1DD713540046EE33 /* bgCalloutDisclosure@2x.png */; };
+		EB5E93ED1DD713540046EE33 /* MarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93DC1DD713540046EE33 /* MarkerView.m */; };
+		EB5E93EE1DD713540046EE33 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93DE1DD713540046EE33 /* Radar.m */; };
+		EB5E93EF1DD713540046EE33 /* Radar_Ellipse.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93E01DD713540046EE33 /* Radar_Ellipse.m */; };
+		EB5E93F01DD713540046EE33 /* RadarViewPortView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E93E21DD713540046EE33 /* RadarViewPortView.m */; };
+		EB5E93F21DD717050046EE33 /* ic_radar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5E93F11DD717050046EE33 /* ic_radar_close.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB385B631DE4451A000CF131 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		BB385B641DE4451A000CF131 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		EB5E93531DD6F0B20046EE33 /* MDARFindPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDARFindPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5E93571DD6F0B20046EE33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB5E93591DD6F0B20046EE33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB5E935A1DD6F0B20046EE33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB5E93621DD6F0B20046EE33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB5E93651DD6F0B20046EE33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB5E93671DD6F0B20046EE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5E936D1DD6F1220046EE33 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		EB5E936E1DD6F1220046EE33 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		EB5E936F1DD6F1220046EE33 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		EB5E93731DD6F3670046EE33 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EB5E939F1DD70D960046EE33 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		EB5E93C81DD713540046EE33 /* ARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoordinate.h; sourceTree = "<group>"; };
+		EB5E93C91DD713540046EE33 /* ARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoordinate.m; sourceTree = "<group>"; };
+		EB5E93CA1DD713540046EE33 /* ARGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARGeoCoordinate.h; sourceTree = "<group>"; };
+		EB5E93CB1DD713540046EE33 /* ARGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARGeoCoordinate.m; sourceTree = "<group>"; };
+		EB5E93CC1DD713540046EE33 /* ARKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARKit.h; sourceTree = "<group>"; };
+		EB5E93CD1DD713540046EE33 /* ARKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARKit.m; sourceTree = "<group>"; };
+		EB5E93CE1DD713540046EE33 /* ARLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLocationDelegate.h; sourceTree = "<group>"; };
+		EB5E93CF1DD713540046EE33 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		EB5E93D01DD713540046EE33 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		EB5E93D11DD713540046EE33 /* ARViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewProtocol.h; sourceTree = "<group>"; };
+		EB5E93D21DD713540046EE33 /* AugmentedRealityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugmentedRealityController.h; sourceTree = "<group>"; };
+		EB5E93D31DD713540046EE33 /* AugmentedRealityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityController.m; sourceTree = "<group>"; };
+		EB5E93D41DD713540046EE33 /* GEOLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOLocations.h; sourceTree = "<group>"; };
+		EB5E93D51DD713540046EE33 /* GEOLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEOLocations.m; sourceTree = "<group>"; };
+		EB5E93D71DD713540046EE33 /* bgCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgCallout.png; sourceTree = "<group>"; };
+		EB5E93D81DD713540046EE33 /* bgCallout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgCallout@2x.png"; sourceTree = "<group>"; };
+		EB5E93D91DD713540046EE33 /* bgCalloutDisclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgCalloutDisclosure.png; sourceTree = "<group>"; };
+		EB5E93DA1DD713540046EE33 /* bgCalloutDisclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgCalloutDisclosure@2x.png"; sourceTree = "<group>"; };
+		EB5E93DB1DD713540046EE33 /* MarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerView.h; sourceTree = "<group>"; };
+		EB5E93DC1DD713540046EE33 /* MarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerView.m; sourceTree = "<group>"; };
+		EB5E93DD1DD713540046EE33 /* Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
+		EB5E93DE1DD713540046EE33 /* Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
+		EB5E93DF1DD713540046EE33 /* Radar_Ellipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar_Ellipse.h; sourceTree = "<group>"; };
+		EB5E93E01DD713540046EE33 /* Radar_Ellipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar_Ellipse.m; sourceTree = "<group>"; };
+		EB5E93E11DD713540046EE33 /* RadarViewPortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarViewPortView.h; sourceTree = "<group>"; };
+		EB5E93E21DD713540046EE33 /* RadarViewPortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarViewPortView.m; sourceTree = "<group>"; };
+		EB5E93F11DD717050046EE33 /* ic_radar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_radar_close.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB5E93501DD6F0B20046EE33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5E93741DD6F3670046EE33 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5E934A1DD6F0B20046EE33 = {
+			isa = PBXGroup;
+			children = (
+				EB5E93551DD6F0B20046EE33 /* MDARFindPlace */,
+				EB5E93541DD6F0B20046EE33 /* Products */,
+				EB5E93721DD6F3670046EE33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB5E93541DD6F0B20046EE33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB5E93531DD6F0B20046EE33 /* MDARFindPlace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB5E93551DD6F0B20046EE33 /* MDARFindPlace */ = {
+			isa = PBXGroup;
+			children = (
+				BB385B631DE4451A000CF131 /* FileHelper.h */,
+				BB385B641DE4451A000CF131 /* FileHelper.m */,
+				EB5E93C71DD713540046EE33 /* ARRadar */,
+				EB5E93591DD6F0B20046EE33 /* AppDelegate.h */,
+				EB5E935A1DD6F0B20046EE33 /* AppDelegate.m */,
+				EB5E936D1DD6F1220046EE33 /* HomeVC.h */,
+				EB5E936E1DD6F1220046EE33 /* HomeVC.m */,
+				EB5E936F1DD6F1220046EE33 /* HomeVC.xib */,
+				EB5E93621DD6F0B20046EE33 /* Assets.xcassets */,
+				EB5E93641DD6F0B20046EE33 /* LaunchScreen.storyboard */,
+				EB5E93671DD6F0B20046EE33 /* Info.plist */,
+				EB5E93561DD6F0B20046EE33 /* Supporting Files */,
+				EB5E939F1DD70D960046EE33 /* Define.h */,
+			);
+			path = MDARFindPlace;
+			sourceTree = "<group>";
+		};
+		EB5E93561DD6F0B20046EE33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB5E93571DD6F0B20046EE33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB5E93721DD6F3670046EE33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB5E93731DD6F3670046EE33 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB5E93C71DD713540046EE33 /* ARRadar */ = {
+			isa = PBXGroup;
+			children = (
+				EB5E93C81DD713540046EE33 /* ARCoordinate.h */,
+				EB5E93C91DD713540046EE33 /* ARCoordinate.m */,
+				EB5E93CA1DD713540046EE33 /* ARGeoCoordinate.h */,
+				EB5E93CB1DD713540046EE33 /* ARGeoCoordinate.m */,
+				EB5E93CC1DD713540046EE33 /* ARKit.h */,
+				EB5E93CD1DD713540046EE33 /* ARKit.m */,
+				EB5E93CE1DD713540046EE33 /* ARLocationDelegate.h */,
+				EB5E93CF1DD713540046EE33 /* ARViewController.h */,
+				EB5E93D01DD713540046EE33 /* ARViewController.m */,
+				EB5E93D11DD713540046EE33 /* ARViewProtocol.h */,
+				EB5E93D21DD713540046EE33 /* AugmentedRealityController.h */,
+				EB5E93D31DD713540046EE33 /* AugmentedRealityController.m */,
+				EB5E93D41DD713540046EE33 /* GEOLocations.h */,
+				EB5E93D51DD713540046EE33 /* GEOLocations.m */,
+				EB5E93D61DD713540046EE33 /* Images */,
+				EB5E93DB1DD713540046EE33 /* MarkerView.h */,
+				EB5E93DC1DD713540046EE33 /* MarkerView.m */,
+				EB5E93DD1DD713540046EE33 /* Radar.h */,
+				EB5E93DE1DD713540046EE33 /* Radar.m */,
+				EB5E93DF1DD713540046EE33 /* Radar_Ellipse.h */,
+				EB5E93E01DD713540046EE33 /* Radar_Ellipse.m */,
+				EB5E93E11DD713540046EE33 /* RadarViewPortView.h */,
+				EB5E93E21DD713540046EE33 /* RadarViewPortView.m */,
+			);
+			path = ARRadar;
+			sourceTree = "<group>";
+		};
+		EB5E93D61DD713540046EE33 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EB5E93F11DD717050046EE33 /* ic_radar_close.png */,
+				EB5E93D71DD713540046EE33 /* bgCallout.png */,
+				EB5E93D81DD713540046EE33 /* bgCallout@2x.png */,
+				EB5E93D91DD713540046EE33 /* bgCalloutDisclosure.png */,
+				EB5E93DA1DD713540046EE33 /* bgCalloutDisclosure@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB5E93521DD6F0B20046EE33 /* MDARFindPlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5E936A1DD6F0B20046EE33 /* Build configuration list for PBXNativeTarget "MDARFindPlace" */;
+			buildPhases = (
+				EB5E934F1DD6F0B20046EE33 /* Sources */,
+				EB5E93501DD6F0B20046EE33 /* Frameworks */,
+				EB5E93511DD6F0B20046EE33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDARFindPlace;
+			productName = MDARFindPlace;
+			productReference = EB5E93531DD6F0B20046EE33 /* MDARFindPlace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB5E934B1DD6F0B20046EE33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JoJo;
+				TargetAttributes = {
+					EB5E93521DD6F0B20046EE33 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZJEP3BQJME;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB5E934E1DD6F0B20046EE33 /* Build configuration list for PBXProject "MDARFindPlace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB5E934A1DD6F0B20046EE33;
+			productRefGroup = EB5E93541DD6F0B20046EE33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB5E93521DD6F0B20046EE33 /* MDARFindPlace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB5E93511DD6F0B20046EE33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5E93EB1DD713540046EE33 /* bgCalloutDisclosure.png in Resources */,
+				EB5E93661DD6F0B20046EE33 /* LaunchScreen.storyboard in Resources */,
+				EB5E93E91DD713540046EE33 /* bgCallout.png in Resources */,
+				EB5E93EC1DD713540046EE33 /* bgCalloutDisclosure@2x.png in Resources */,
+				EB5E93711DD6F1220046EE33 /* HomeVC.xib in Resources */,
+				EB5E93EA1DD713540046EE33 /* bgCallout@2x.png in Resources */,
+				EB5E93631DD6F0B20046EE33 /* Assets.xcassets in Resources */,
+				EB5E93F21DD717050046EE33 /* ic_radar_close.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB5E934F1DD6F0B20046EE33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB5E93EE1DD713540046EE33 /* Radar.m in Sources */,
+				EB5E93ED1DD713540046EE33 /* MarkerView.m in Sources */,
+				EB5E93E31DD713540046EE33 /* ARCoordinate.m in Sources */,
+				EB5E93F01DD713540046EE33 /* RadarViewPortView.m in Sources */,
+				EB5E93701DD6F1220046EE33 /* HomeVC.m in Sources */,
+				EB5E935B1DD6F0B20046EE33 /* AppDelegate.m in Sources */,
+				EB5E93EF1DD713540046EE33 /* Radar_Ellipse.m in Sources */,
+				EB5E93E51DD713540046EE33 /* ARKit.m in Sources */,
+				EB5E93581DD6F0B20046EE33 /* main.m in Sources */,
+				EB5E93E61DD713540046EE33 /* ARViewController.m in Sources */,
+				EB5E93E81DD713540046EE33 /* GEOLocations.m in Sources */,
+				BB385B651DE4451A000CF131 /* FileHelper.m in Sources */,
+				EB5E93E41DD713540046EE33 /* ARGeoCoordinate.m in Sources */,
+				EB5E93E71DD713540046EE33 /* AugmentedRealityController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB5E93641DD6F0B20046EE33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB5E93651DD6F0B20046EE33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB5E93681DD6F0B20046EE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB5E93691DD6F0B20046EE33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB5E936B1DD6F0B20046EE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZJEP3BQJME;
+				INFOPLIST_FILE = MDARFindPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.e-conception.naturapass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB5E936C1DD6F0B20046EE33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZJEP3BQJME;
+				INFOPLIST_FILE = MDARFindPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.e-conception.naturapass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5E934E1DD6F0B20046EE33 /* Build configuration list for PBXProject "MDARFindPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5E93681DD6F0B20046EE33 /* Debug */,
+				EB5E93691DD6F0B20046EE33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5E936A1DD6F0B20046EE33 /* Build configuration list for PBXNativeTarget "MDARFindPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5E936B1DD6F0B20046EE33 /* Debug */,
+				EB5E936C1DD6F0B20046EE33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB5E934B1DD6F0B20046EE33 /* Project object */;
+}
